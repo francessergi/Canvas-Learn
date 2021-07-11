@@ -12,9 +12,11 @@ var c = canvas.getContext("2d");
 var img = new Image();
 var contador = 1;
 let actiu = false;
+
 window.addEventListener("dblclick", function () {
   c.clearRect(0, 0, canvas.width, canvas.height);
 });
+
 window.addEventListener("click", function (event) {
   if (actiu) {
     window.removeEventListener("mousemove", dibuixa);
@@ -23,7 +25,16 @@ window.addEventListener("click", function (event) {
     window.addEventListener("mousemove", dibuixa);
     actiu = true;
   }
+  checkInk();
 });
+
+function checkInk() {
+  if (actiu) {
+    document.getElementById("ink").innerText = "Actiu";
+  } else {
+    document.getElementById("ink").innerText = "Desactivat";
+  }
+}
 
 function dibuixa(event) {
   console.log(event.x);

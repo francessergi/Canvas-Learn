@@ -3,8 +3,17 @@ body {
 }
 
 canvas {
-  border: 1px solid black;
+  border: 1px solid white;
   /* background-color: wheat; */
   background: url("https://wallpapercave.com/wp/wp1902719.jpg");
   background-size: cover;
+}
+
+#info-nav {
+  width: 100%;
+  height: 3em;
+  background-color: white;
+  position: absolute;
+  border: 1px 1px 0px 1px;
+  border-color: solid black;
 }
