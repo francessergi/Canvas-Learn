@@ -5,4 +5,4 @@
 - Reset the canvas *clicking* the screen.  
 
 ## Give it a try
-[Try it here!](https://francessergi.github.io/Canvas-Learn/)
+[Try it here!](https://francessergi.github.io/poke-canvas-js/)
