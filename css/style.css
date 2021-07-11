@@ -1,8 +1,10 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 canvas {
-    border: 1px solid black;
-    background-color: wheat;
+  border: 1px solid black;
+  /* background-color: wheat; */
+  background: url("https://wallpapercave.com/wp/wp1902719.jpg");
+  background-size: cover;
 }
